@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Search and Delete employee record</description>
+   <name>OrangeHRM_Employee_Delete</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3f5e792-8aba-4061-82b5-c446983f40ff</testCaseGuid>
+</TestCaseEntity>

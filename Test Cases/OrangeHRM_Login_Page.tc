@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>OrangeHRM login page</description>
+   <name>OrangeHRM_Login_Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bcf54296-822f-4ef6-9d78-4a2f00fd077c</testCaseGuid>
+</TestCaseEntity>

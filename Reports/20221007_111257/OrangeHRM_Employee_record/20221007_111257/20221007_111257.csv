@@ -1,0 +1,90 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrangeHRM_Employee_record,Chrome 106.0.0.0,"OrangeHRM Employee record 
+1. create employee with valid details.
+2. search and delete employee record.
+3. create employee with invalid details.",,2022-10-07 11:13:07,2022-10-07 11:15:55,2m - 48.160s,FAILED
+,,,,,,,
+Test Cases/OrangeHRM_Employee_Create,Chrome 106.0.0.0,Create new employee and search,,2022-10-07 11:13:07,2022-10-07 11:14:04,56.784s,PASSED
+"callTestCase(findTestCase(""OrangeHRM_Login_Page""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-07 11:13:08,2022-10-07 11:13:17,9.135s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/button_Add_Employee""))",Chrome 106.0.0.0,,,2022-10-07 11:13:17,2022-10-07 11:13:21,3.803s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Employee_firstName""), ""Abdul"")",Chrome 106.0.0.0,,,2022-10-07 11:13:21,2022-10-07 11:13:22,1.593s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Employee_middleName""), ""Kazim"")",Chrome 106.0.0.0,,,2022-10-07 11:13:22,2022-10-07 11:13:23,0.689s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Employee_lastName""), ""Nazir"")",Chrome 106.0.0.0,,,2022-10-07 11:13:23,2022-10-07 11:13:24,0.706s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Enter_Employee Id""), ""001"")",Chrome 106.0.0.0,,,2022-10-07 11:13:24,2022-10-07 11:13:25,0.693s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/button_Employee_Save""))",Chrome 106.0.0.0,,,2022-10-07 11:13:25,2022-10-07 11:13:25,0.391s,PASSED
+waitForAlert(2),Chrome 106.0.0.0,,,2022-10-07 11:13:25,2022-10-07 11:13:27,2.102s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Enter_Employee_Other Id""), ""AKN202010"")",Chrome 106.0.0.0,,,2022-10-07 11:13:27,2022-10-07 11:13:31,4.035s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Enter_driver_license_number""), ""MH1020121022"")",Chrome 106.0.0.0,,,2022-10-07 11:13:31,2022-10-07 11:13:32,0.729s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Enter_License Expiry Date""), ""2026-10-10"")",Chrome 106.0.0.0,,,2022-10-07 11:13:32,2022-10-07 11:13:32,0.694s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Enter_SSN Number""), ""MH1010101090"")",Chrome 106.0.0.0,,,2022-10-07 11:13:32,2022-10-07 11:13:33,0.723s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Enter_SIN Number""), ""MH9090909010"")",Chrome 106.0.0.0,,,2022-10-07 11:13:33,2022-10-07 11:13:34,0.706s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/i_Marital_status_Dropdown""))",Chrome 106.0.0.0,,,2022-10-07 11:13:34,2022-10-07 11:13:34,0.379s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/div_Married""))",Chrome 106.0.0.0,,,2022-10-07 11:13:34,2022-10-07 11:13:35,0.481s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/i_Nationality_dropdown""))",Chrome 106.0.0.0,,,2022-10-07 11:13:35,2022-10-07 11:13:35,0.531s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/div_Indian""))",Chrome 106.0.0.0,,,2022-10-07 11:13:35,2022-10-07 11:13:36,0.502s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Enter_Date of Birth""), ""1996-10-11"")",Chrome 106.0.0.0,,,2022-10-07 11:13:36,2022-10-07 11:13:37,0.813s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/label_Male_radiobutton""))",Chrome 106.0.0.0,,,2022-10-07 11:13:37,2022-10-07 11:13:37,0.405s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/label_Female_radiobutton""))",Chrome 106.0.0.0,,,2022-10-07 11:13:37,2022-10-07 11:13:37,0.382s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/label_Male_radiobutton""))",Chrome 106.0.0.0,,,2022-10-07 11:13:37,2022-10-07 11:13:38,0.378s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Enter_Military Service""), ""2015-2018"")",Chrome 106.0.0.0,,,2022-10-07 11:13:38,2022-10-07 11:13:38,0.704s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/label_Smoker_checkbox_Yes""))",Chrome 106.0.0.0,,,2022-10-07 11:13:38,2022-10-07 11:13:39,0.381s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/button_Save_personal_details""))",Chrome 106.0.0.0,,,2022-10-07 11:13:39,2022-10-07 11:13:39,0.386s,PASSED
+waitForAlert(2),Chrome 106.0.0.0,,,2022-10-07 11:13:39,2022-10-07 11:13:41,2.053s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/a_Job""))",Chrome 106.0.0.0,,,2022-10-07 11:13:41,2022-10-07 11:13:42,1.129s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/i_Job_title_dropdown""))",Chrome 106.0.0.0,,,2022-10-07 11:13:42,2022-10-07 11:13:44,1.610s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/div_QA Engineer""))",Chrome 106.0.0.0,,,2022-10-07 11:13:44,2022-10-07 11:13:45,0.485s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/i_Employee_status_dropdown""))",Chrome 106.0.0.0,,,2022-10-07 11:13:45,2022-10-07 11:13:45,0.927s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/div_Full-Time Permanent""))",Chrome 106.0.0.0,,,2022-10-07 11:13:45,2022-10-07 11:13:46,0.471s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/button_Save_job_details""))",Chrome 106.0.0.0,,,2022-10-07 11:13:46,2022-10-07 11:13:46,0.481s,PASSED
+waitForAlert(2),Chrome 106.0.0.0,,,2022-10-07 11:13:46,2022-10-07 11:13:48,2.049s,PASSED
+back(),Chrome 106.0.0.0,,,2022-10-07 11:13:48,2022-10-07 11:13:49,0.047s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/i_Blood_type_dropdown""))",Chrome 106.0.0.0,,,2022-10-07 11:13:49,2022-10-07 11:13:49,0.499s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/div_A""))",Chrome 106.0.0.0,,,2022-10-07 11:13:49,2022-10-07 11:13:50,0.480s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/button_Save_Custom_details""))",Chrome 106.0.0.0,,,2022-10-07 11:13:50,2022-10-07 11:13:50,0.483s,PASSED
+waitForAlert(2),Chrome 106.0.0.0,,,2022-10-07 11:13:50,2022-10-07 11:13:52,2.056s,PASSED
+back(),Chrome 106.0.0.0,,,2022-10-07 11:13:52,2022-10-07 11:13:52,0.082s,PASSED
+back(),Chrome 106.0.0.0,,,2022-10-07 11:13:52,2022-10-07 11:13:52,0.159s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Employee_name_search""))",Chrome 106.0.0.0,,,2022-10-07 11:13:52,2022-10-07 11:13:54,1.459s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Employee_name_search""), ""Abdul"")",Chrome 106.0.0.0,,,2022-10-07 11:13:54,2022-10-07 11:13:54,0.661s,PASSED
+waitForAlert(2),Chrome 106.0.0.0,,,2022-10-07 11:13:54,2022-10-07 11:13:56,2.057s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/div_First_option_select""))",Chrome 106.0.0.0,,,2022-10-07 11:13:56,2022-10-07 11:13:57,0.362s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/button_Search_employee""))",Chrome 106.0.0.0,,,2022-10-07 11:13:57,2022-10-07 11:13:57,0.493s,PASSED
+"scrollToPosition(100, 200)",Chrome 106.0.0.0,,,2022-10-07 11:13:57,2022-10-07 11:13:57,0.038s,PASSED
+waitForAlert(2),Chrome 106.0.0.0,,,2022-10-07 11:13:57,2022-10-07 11:13:59,2.052s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/i_Employee_dropdown""))",Chrome 106.0.0.0,,,2022-10-07 11:13:59,2022-10-07 11:14:00,0.372s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/a_Logout""))",Chrome 106.0.0.0,,,2022-10-07 11:14:00,2022-10-07 11:14:01,1.225s,PASSED
+waitForAlert(2),Chrome 106.0.0.0,,,2022-10-07 11:14:01,2022-10-07 11:14:03,2.077s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-10-07 11:14:03,2022-10-07 11:14:04,1.091s,PASSED
+,,,,,,,
+Test Cases/OrangeHRM_Employee_Delete,Chrome 106.0.0.0,Search and Delete employee record,,2022-10-07 11:14:04,2022-10-07 11:15:03,58.477s,PASSED
+"callTestCase(findTestCase(""OrangeHRM_Login_Page""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-07 11:14:05,2022-10-07 11:14:11,6.259s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Delete/button_Admin_Minimize_Menu""))",Chrome 106.0.0.0,,,2022-10-07 11:14:11,2022-10-07 11:14:14,3.327s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Employee_name_search""))",Chrome 106.0.0.0,,,2022-10-07 11:14:14,2022-10-07 11:14:15,0.383s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Employee_name_search""), ""Abdul"")",Chrome 106.0.0.0,,,2022-10-07 11:14:15,2022-10-07 11:14:15,0.753s,PASSED
+waitForAlert(2),Chrome 106.0.0.0,,,2022-10-07 11:14:15,2022-10-07 11:14:17,2.054s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/div_First_option_select""))",Chrome 106.0.0.0,,,2022-10-07 11:14:17,2022-10-07 11:14:18,0.378s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/button_Search_employee""))",Chrome 106.0.0.0,,,2022-10-07 11:14:18,2022-10-07 11:14:18,0.498s,PASSED
+"scrollToPosition(100, 200)",Chrome 106.0.0.0,,,2022-10-07 11:14:18,2022-10-07 11:14:18,0.023s,PASSED
+waitForAlert(2),Chrome 106.0.0.0,,,2022-10-07 11:14:18,2022-10-07 11:14:20,2.069s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Delete/Select_First_record""))",Chrome 106.0.0.0,,,2022-10-07 11:14:20,2022-10-07 11:14:21,0.389s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Delete/button_Delete Selected record""))",Chrome 106.0.0.0,,,2022-10-07 11:14:21,2022-10-07 11:14:21,0.492s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Delete/button_Yes, Delete""))",Chrome 106.0.0.0,,,2022-10-07 11:14:21,2022-10-07 11:14:53,31.544s,PASSED
+waitForAlert(2),Chrome 106.0.0.0,,,2022-10-07 11:14:53,2022-10-07 11:14:55,2.057s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/i_Employee_dropdown""))",Chrome 106.0.0.0,,,2022-10-07 11:14:55,2022-10-07 11:14:55,0.371s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/a_Logout""))",Chrome 106.0.0.0,,,2022-10-07 11:14:55,2022-10-07 11:15:00,4.377s,PASSED
+waitForAlert(2),Chrome 106.0.0.0,,,2022-10-07 11:15:00,2022-10-07 11:15:02,2.057s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-10-07 11:15:02,2022-10-07 11:15:03,1.106s,PASSED
+,,,,,,,
+Test Cases/OrangeHRM_Employee_create_wrong_input,Chrome 106.0.0.0,Creating employee with wrong input date in license expire date,,2022-10-07 11:15:03,2022-10-07 11:15:55,52.458s,FAILED
+"callTestCase(findTestCase(""OrangeHRM_Login_Page""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-07 11:15:03,2022-10-07 11:15:09,5.997s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/button_Add_Employee""))",Chrome 106.0.0.0,,,2022-10-07 11:15:09,2022-10-07 11:15:13,3.398s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Employee_firstName""), ""Rajan"")",Chrome 106.0.0.0,,,2022-10-07 11:15:13,2022-10-07 11:15:14,1.685s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Employee_middleName""), ""Sham"")",Chrome 106.0.0.0,,,2022-10-07 11:15:14,2022-10-07 11:15:15,0.685s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Employee_lastName""), ""Shankar"")",Chrome 106.0.0.0,,,2022-10-07 11:15:15,2022-10-07 11:15:16,0.696s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Enter_Employee Id""), ""002"")",Chrome 106.0.0.0,,,2022-10-07 11:15:16,2022-10-07 11:15:16,0.662s,PASSED
+"click(findTestObject(""Object Repository/OrangeHRM_Employee_Create/button_Employee_Save""))",Chrome 106.0.0.0,,,2022-10-07 11:15:16,2022-10-07 11:15:17,0.376s,PASSED
+waitForAlert(2),Chrome 106.0.0.0,,,2022-10-07 11:15:17,2022-10-07 11:15:19,2.051s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Enter_Employee_Other Id""), ""RSS202206"")",Chrome 106.0.0.0,,,2022-10-07 11:15:19,2022-10-07 11:15:22,3.476s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Enter_driver_license_number""), ""MH1420130221"")",Chrome 106.0.0.0,,,2022-10-07 11:15:22,2022-10-07 11:15:23,0.714s,PASSED
+"setText(findTestObject(""Object Repository/OrangeHRM_Employee_Create/input_Enter_License Expiry Date""), ""3000-05-40"")",Chrome 106.0.0.0,,,2022-10-07 11:15:23,2022-10-07 11:15:24,0.673s,PASSED
+"verifyElementNotVisible(findTestObject(""Object Repository/OrangeHRM_Employee_Create/span_Should be a valid date in yyyy-mm-dd format""))",Chrome 106.0.0.0,,,2022-10-07 11:15:24,2022-10-07 11:15:55,31.657s,FAILED

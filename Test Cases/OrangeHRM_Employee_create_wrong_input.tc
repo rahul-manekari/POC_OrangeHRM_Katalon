@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Creating employee with wrong input date in license expire date</description>
+   <name>OrangeHRM_Employee_create_wrong_input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1d6adfe-60f7-4666-8bdf-5e21cff914f3</testCaseGuid>
+</TestCaseEntity>
